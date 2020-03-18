@@ -1,5 +1,5 @@
-# source: https://us1.prisma.sh/rhiannon-monks-39bfc0/sick-fits/dev
-# timestamp: Sun Mar 15 2020 23:59:03 GMT+1030 (Australian Central Daylight Time)
+# source: https://us1.prisma.sh/rhiannon-monks-39bfc0/sick-fits2/dev
+# timestamp: Wed Mar 18 2020 19:46:59 GMT+1030 (Australian Central Daylight Time)
 
 type AggregateItem {
   count: Int!
