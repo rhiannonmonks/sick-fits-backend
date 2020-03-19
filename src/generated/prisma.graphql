@@ -56,14 +56,16 @@ enum ItemOrderByInput {
   id_DESC
   title_ASC
   title_DESC
-  description_ASC
   description_DESC
-  image_ASC
   image_DESC
   largeImage_ASC
   largeImage_DESC
   price_ASC
   price_DESC
+  createdAt_ASC
+  createdAt_DESC
+  updatedAt_ASC
+  updatedAt_DESC
 }
 
 type ItemPreviousValues {
