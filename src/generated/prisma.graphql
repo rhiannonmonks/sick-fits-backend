@@ -1,5 +1,5 @@
 # source: https://us1.prisma.sh/rhiannon-monks-39bfc0/sick-fits/dev
-# timestamp: Thu Mar 19 2020 23:06:31 GMT+1030 (Australian Central Daylight Time)
+# timestamp: Fri Mar 20 2020 00:21:04 GMT+1030 (Australian Central Daylight Time)
 
 type AggregateCartItem {
   count: Int!
@@ -843,8 +843,8 @@ type User implements Node {
   password: String!
   resetToken: String
   resetTokenExpiry: Float
-  permissions: [Permission!]!
   cart(where: CartItemWhereInput, orderBy: CartItemOrderByInput, skip: Int, after: String, before: String, first: Int, last: Int): [CartItem!]
+  permissions: [Permission!]!
 }
 
 """A connection to a list of items."""
