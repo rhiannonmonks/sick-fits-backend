@@ -33,7 +33,4 @@
       "env"
     ]
   },
-  "devDependencies": {
-    "fsevents": "^1.2.9"
-  }
 }
